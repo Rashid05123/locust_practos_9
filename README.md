@@ -1,6 +1,6 @@
 # Нагрузочное тестирование «ТоргЛайн» с помощью Locust
 
-Практическая работа №4. Объект тестирования - REST API электронной торговой площадки «ТоргЛайн»
+Практическая работа №9. Объект тестирования - REST API электронной торговой площадки «ТоргЛайн»
 (курсовой проект: FastAPI + PostgreSQL + React, запускается в Docker).
 
 ## Файлы
@@ -35,7 +35,7 @@
    ```powershell
    cd <папка torgline>
    $env:DB_PUBLISH="5441"; $env:WEB_PUBLISH="8091"; $env:LOGIN_RATE_LIMIT="100000"; $env:CORS_ORIGINS="http://localhost:8091"
-   docker compose -p torgline_pr4 --profile full up -d
+   docker compose -p torgline_pr9 --profile full up -d
    ```
 
 2. Locust:
